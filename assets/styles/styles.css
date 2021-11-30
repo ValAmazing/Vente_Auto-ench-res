@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+.connexionForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.connexionContainer {
+  margin: 10vh 30vw;
+  font-family: sans-serif;
+  background-color: white;
+  box-shadow: 4px 5px 8px #525252;
+  padding: 20px;
+}
+.connexionContainer input {
+  height: 30px;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+.connexionContainer label {
+  margin-left: 40px;
+}
+
+.connexionContainer h1 {
+  text-align: center;
+}
+
+.btnConnexion {
+  width: 140px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  background-color: orange;
+  border-radius: 5px;
+  border-color: orange;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnConnexion:hover {
+  background-color: rgb(255, 177, 32);
+}
+nav {
+  background-color: orange;
+  height: 50px;
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin: 0 20px;
+  width: 100%;
+}
+nav ul {
+  margin: 0;
+  padding: 15px 0;
+  display: flex;
+  width: 70%;
+}
+.aNav {
+  text-decoration: none;
+  color: white;
+}
+.bienvenu {
+  width: 30%;
+  color: white;
+}
+.bienvenu h2 {
+  margin: 10px;
+}
+
+.inscription {
+  margin: auto;
+}
